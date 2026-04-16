@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { INTERACTION_STATUS_OPTIONS_ES } from "@/lib/contacts/labels.es.ts";
+import { INTERACTION_STATUS_OPTIONS_ES } from "@/lib/contacts/labels.es";
 import type { CicloFormativo, InteractionStatus } from "@/lib/contacts/types";
 import type { ProfessionalFamily } from "@/lib/professional-families/types";
 
