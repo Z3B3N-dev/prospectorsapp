@@ -220,4 +220,59 @@ Estas credenciales las valida `lib/fake-auth.ts`:
 
 
 
+# COMO LEVANTAR EL PROYECTO EN LOCAL
 
+## Requisitos
+
+- Docker Desktop encendido
+- Supabase CLI instalada
+- pnpm instalado
+
+## Pasos minimos
+
+1. Instalar dependencias:
+
+bash
+pnpm install
+
+
+2. Levantar todo en local (Supabase + reset DB + seed + app):
+
+bash
+pnpm dev:local
+
+
+Con ese comando se hace automaticamente:
+
+- Inicio de Supabase en Docker
+- Reset de base de datos local
+- Aplicacion de migraciones
+- Carga de datos desde supabase/seed.sql
+- Generacion/actualizacion de .env.local
+- Arranque de Next.js
+
+## Comandos utiles
+
+Parar Supabase local:
+
+bash
+pnpm supabase:stop
+
+
+Ejecutar solo la app (sin reset de base de datos):
+
+bash
+pnpm dev
+
+
+## Credenciales de prueba
+
+- admin@gobiernodecanarias.org / admin1234
+- prospector.consejeria@gobiernodecanarias.org / prospector1234
+- prospector.centro@gobiernodecanarias.org / centro1234
+- tutor@gobiernodecanarias.org / tutor1234
+
+## Nota importante
+
+pnpm dev:local siempre restaura la data semilla en cada ejecucion.
+Si haces cambios manuales en la base de datos local, se perderan al volver a ejecutar ese comando.
