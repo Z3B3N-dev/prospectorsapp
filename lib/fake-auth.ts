@@ -61,7 +61,7 @@ const CREDENTIALS: Record<
 		role: "tutor",
 		userId: "0f188ecb-e664-4ec4-ad8c-46ea075d6efb",
 		displayName: "Tutor",
-		professionalFamilyCode: "INF",
+		professionalFamilyCode: "F17",
 	},
 };
 
