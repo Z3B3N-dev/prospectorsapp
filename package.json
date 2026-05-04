@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
-		"dev:local": "node scripts/supabase-local.mjs --reset && npm dev",
+		"dev:local": "node scripts/supabase-local.mjs --reset && pnpm dev",
 		"build": "next build",
 		"start": "next start",
 		"lint": "eslint",
@@ -14,6 +14,7 @@
 		"@supabase/ssr": "^0.8.0",
 		"@supabase/supabase-js": "^2.98.0",
 		"next": "16.1.6",
+		"pnpm": "^10.33.2",
 		"react": "19.2.3",
 		"react-dom": "19.2.3"
 	},
