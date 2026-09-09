@@ -7,7 +7,7 @@ Aplicación web para la gestión de prospección de empresas y contactos en el c
 ## Objetivo del proyecto
 
 
-Este proyecto forma parte de un trabajo académico del curso de adaptación al Grado en Ingeniería Informática.
+Este proyecto forma parte de un trabajo académico del curso de adaptación al Grado en Ingeniería Informática de UNIR en concreto a su TFE o Trabajo de Fin de Grado.
 Su objetivo es implementar una aplicación realista, con control de roles, para gestionar:
 
 
